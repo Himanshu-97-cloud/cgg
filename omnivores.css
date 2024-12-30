@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.container{
+    margin: 0 5%
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;  
+    list-style: none;
+    gap: 30px;
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin-top: 10px;
+    width: 250px;
+    height:110px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.nav-name:hover{
+    font-size: 21px;
+    animation: ease-in;
+    color: #fc2020;
+}
+
+#welcome-msg{
+    margin-top: 10px;
+    width: 100vw;
+    height: 400px;
+    background-color: #fff2bd;
+}
+.msg-content{
+    align-items: center;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.msg1{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.msg2{
+    margin-top: 20px;
+    width: 650px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+.row{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.category{
+    text-align: center;
+}
+.text{
+    font-family: "Poppins",sans-serif;
+    font-size: 30px;
+}
+.container1{
+    margin: 0 10%;
+}
+.image:hover{
+    transform: scale(1.05);
+    animation: ease-in;
+}
+.text:hover{
+    color: #fc2020;
+}
+
+
+#footer{
+    margin-top: 70px;
+    width: 100vw;
+    height: 300px;
+    background-color: #626053;
+}
+.footer-top{
+    display: flex;
+    flex-direction: column;
+}
+.quote{
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Poppins" , sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.footer-bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.member{
+    font-family: "Poppins" , sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.email-edit{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#email{
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn{
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
